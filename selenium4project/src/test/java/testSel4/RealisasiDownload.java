@@ -52,7 +52,7 @@ public class RealisasiDownload {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
  		driver.switchTo().window(tabs.get(0));
- 		driver.manage().window().maximize(); 
+ 		driver.manage().window().maximize();
 		
 		//Devtool tutorial @ https://www.youtube.com/watch?v=HtBhLdZ19iQ&t=528s
 		DevTools devTools = driver.getDevTools();
