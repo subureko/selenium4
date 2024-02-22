@@ -24,8 +24,8 @@ public class RealisasiDownload {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ChromeRemote();
-		//RealisasiMethod("01-01-2024","04-02-2024");
-		RealisasiMethod(args[0],args[1]);
+		RealisasiMethod("01-01-2024","21-02-2024");
+		//RealisasiMethod(args[0],args[1]);
 	}
 	static int i,j=0;
 	static void ChromeRemote() {	
